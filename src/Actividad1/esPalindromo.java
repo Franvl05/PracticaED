@@ -1,6 +1,7 @@
 package Actividad1;
 
 public class esPalindromo {
+	// Modificado por Francisco Velasco de 1DAM
 	public static boolean validPalindrome(String s) {
 	       for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
 	           if (s.charAt(i) != s.charAt(j)) {
